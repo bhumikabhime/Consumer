@@ -6,3 +6,4 @@ nltk
 matplotlib
 regex
 streamlit
+openpyxl
