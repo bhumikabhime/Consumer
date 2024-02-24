@@ -16,7 +16,7 @@ import pandas as pd
 import numpy as np
 
     #3. Seaborn to Visualize data
-import seaborn as sns
+#import seaborn as sns
 
     #4. To split data
 from sklearn.model_selection import train_test_split
