@@ -4,6 +4,6 @@ seaborn
 scikit-learn
 nltk
 matplotlib
-re
+regex
 string
 streamlit
