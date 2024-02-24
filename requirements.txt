@@ -6,4 +6,4 @@ nltk
 matplotlib
 re
 string
-st
+streamlit
