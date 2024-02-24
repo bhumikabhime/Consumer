@@ -5,5 +5,4 @@ scikit-learn
 nltk
 matplotlib
 regex
-string
 streamlit
