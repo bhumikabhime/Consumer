@@ -36,7 +36,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import SGDClassifier
 
     #9. For Analysing Text
-import re
+import regex as re
 import string
 
     #10. For Deployment
