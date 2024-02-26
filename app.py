@@ -16,7 +16,7 @@ import pandas as pd
 import numpy as np
 
     #3. Seaborn to Visualize data
-import seaborn as sns
+#import seaborn as sns
 
     #4. To split data
 from sklearn.model_selection import train_test_split
@@ -36,7 +36,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import SGDClassifier
 
     #9. For Analysing Text
-import re
+import regex as re
 import string
 
     #10. For Deployment

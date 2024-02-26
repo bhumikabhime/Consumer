@@ -1,0 +1,9 @@
+pandas
+numpy
+seaborn
+scikit-learn
+nltk
+matplotlib
+regex
+streamlit
+openpyxl
