@@ -137,9 +137,11 @@ print("Accuracy of SGD model:",sgdmodel.score(X_test,y_test)*100,"%")
 #Taking User Input
 st.header("Consumer Complaint Classification")
 user =st.text_input("Enter Complaint Narrative: ")
-data = cv.transform([user]).toarray()
-output = sgdmodel.predict(data)
-
-#Printing the type of complaint
-st.write("Type of Complaint:\n")
-st.write(output[0])
+b1=st.button("Submit")
+if b1:
+    data = cv.transform([user]).toarray()
+    output = sgdmodel.predict(data)
+    
+    #Printing the type of complaint
+    st.write("Type of Complaint:\n")
+    st.write(output[0])
